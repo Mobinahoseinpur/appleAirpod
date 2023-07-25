@@ -1,0 +1,36 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #000;
+    height: 100vh;
+    overflow: auto;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+video{
+    position: fixed;
+    z-index: 0;
+    max-width: 100%;
+}
+.scroll-dummy{
+    height: 2000px;
+    max-width: 998px;
+    padding: 20px;
+    z-index: 1;
+    font-family: sans-serif;
+}
+.scroll-dummy h1{
+    font-size: 80px;
+    font-weight: 700;
+    padding: 200px 0;
+    color: white;
+}
+.scroll-dummy p{
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.4;
+}
